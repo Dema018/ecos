@@ -3570,6 +3570,3 @@ var index = {
 	gui: gui,
 	GUI: GUI$1
 };
-
-export { color, controllers, dom$1 as dom, gui, GUI$1 as GUI };
-export default index;

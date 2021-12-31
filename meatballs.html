@@ -7,7 +7,6 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body class="bg-light">
     <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
@@ -22,33 +21,96 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link active" href="products.html">products</a>
               </li>
-
-            
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  item
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">contact us</a></li>
+                  <li><a class="dropdown-item" href="#"></a></li>
+                  <li><a class="dropdown-item" href="#">upgrade</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="pricing.html">pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="games.html">games</a>
+              </li>
+              
             </ul>
             
-            
-              <input class="form-control me-2" type="search" placeholder="search" aria-label="search" class="mx-auto" style="width: 200px;">
-              <button class="btn btn-outline-success fas fa-search" type="submit"></button>
+              <form action="search.html" class="row g-0">
+                <div class="col-8">
+                  <input class="form-control me-2" type="search" name="q" placeholder="search" aria-label="search" class="mx-auto">
+                </div>
+                <div class="col-4 h-100">
+                  <button class="btn h-100 btn-outline-success fas fa-search" type="submit"></button>
+                </div>
+  
+              </form>
               <div class="margin"></div>
               <a class="navbar-brand" href="#"></a>
-              <a class="btn btn-outline-info " type="submit" href="./signin.html">Sign in</a>
+              <a href="#" class="nav-link text-white">
+                <!-- <svg class="bi d-block mx-auto mb-1 " width="24" height="24"><use xlink:href="#people-circle"/></svg> -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-person-circle bi d-block mx-auto mb-1 " viewBox="0 0 16 16">
+                  <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                  <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                </svg>
+                Customers
+              </a>
+
+        
+              
+
               
             
           </div>
         </div>
       </nav>
-      <div class="container">
+
+
+      <div>
+        <img src="meatballs.jpeg" alt="30">
+    </div>
+
+
+    <h1 class="text-center">iceland Meatballs</h1>
+
+    <p>
+      Dietary Information
+
+NOT SUITABLE FOR VEGETARIANS
+
+Manufacturers Address
+
+Produced in the U.K. for Iceland Foods Ltd., U.K., CH5 2NW & Iceland Stores Ireland Ltd., Unit 250, Corporate Park 2, Blanchardstown, Dublin 15.
+
+Return to
+
+To contact us please call: 0800 328 0800
+
+Package type
+
+Tray, Film
+
+Storage information
+
+KEEP REFRIGERATED. Once opened, keep in a refrigerator and use within 24 hours and date indicated. Suitable for home freezing. Freeze on day of purchase. Use within 1 month of freezing. Defrost thoroughly before use. Use within 24 hours of defrosting. DO NOT REFREEZE AFTER DEFROSTING.
+    </p>
+
+    <div class="container">
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
           <div class="col-md-4 d-flex align-items-center">
             <a class="navbar-brand" href="#">
               <img src="logo.png" alt="" width="32">
             </a>
-            <span class="text-muted">&copy; 2021 Company, Inc</span>
+            <span class="text-muted">&copy; 2021 Ecos, Inc</span>
           </div>
       
           <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
@@ -78,6 +140,6 @@
 
 
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-</body>
-
-</html>
+    </body>
+    
+    </html>

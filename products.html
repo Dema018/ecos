@@ -9,39 +9,68 @@
     <link rel="stylesheet" href="style.css">
     <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body class="bg-light">
-    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+<body class="bg-dark">
+  <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
         
-        <div class="container-fluid">
-          <a class="footer-brand" href="#">
-            <img src="/res/logo.png" alt="" width="64">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="home.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#">products</a>
-              </li>
-
-            
+    <div class="container-fluid">
+      <a class="footer-brand" href="#">
+        <img src="logo.png" alt="" width="64">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="signedHome.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="products.html">products</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              item
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">contact us</a></li>
+              <li><a class="dropdown-item" href="#"></a></li>
+              <li><a class="dropdown-item" href="#">upgrade</a></li>
             </ul>
-            
-            
-              <input class="form-control me-2" type="search" placeholder="search" aria-label="search" class="mx-auto" style="width: 200px;">
-              <button class="btn btn-outline-success fas fa-search" type="submit"></button>
-              <div class="margin"></div>
-              <a class="navbar-brand" href="#"></a>
-              <a class="btn btn-outline-info " type="submit" href="./signin.html">Sign in</a>
-              
-            
-          </div>
-        </div>
-      </nav>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="pricing.html">pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="games.html">games</a>
+          </li>
+          
+        </ul>
+        
+          <form action="search.html" class="row g-0">
+            <div class="col-8">
+              <input class="form-control me-2" type="search" name="q" placeholder="search" aria-label="search" class="mx-auto">
+            </div>
+            <div class="col-4 h-100">
+              <button class="btn h-100 btn-outline-success fas fa-search" type="submit"></button>
+            </div>
+
+          </form>
+          <div class="margin"></div>
+          <a class="navbar-brand" href="#"></a>
+          <a href="#" class="nav-link text-white">
+            <!-- <svg class="bi d-block mx-auto mb-1 " width="24" height="24"><use xlink:href="#people-circle"/></svg> -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-person-circle bi d-block mx-auto mb-1 " viewBox="0 0 16 16">
+              <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+              <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+            </svg>
+            Customers
+          </a>
+
+          
+        
+      </div>
+    </div>
+  </nav>
 
 
     <div class="container">
@@ -61,23 +90,23 @@
             <img src="cornflakes.jpeg" class="rounded mx-auto d-block w-50" alt="50">
             </div>
             <div class="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p>Some representative placeholder content for the first slide.</p>
+              <h5>kellog's corn flakes</h5>
+              <p>search in the search bar "cornflakes"</p>
             </div>
           </div>
         </div>
           <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
+            <img src="meatbballs.jpeg" class="d-block w-50" alt="50">
             <div class="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>Some representative placeholder content for the second slide.</p>
+              <h5>iceland meatballs</h5>
+              <p>search in the search bar "meatballs"</p>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
+            <img src="chips.jpeg" class="d-block w-50" alt="50">
             <div class="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>Some representative placeholder content for the third slide.</p>
+              <h5>lay's chips</h5>
+              <p>search in the search bar "chips"</p>
             </div>
           </div>
         </div>
@@ -129,7 +158,8 @@
         </footer>
       </div>
 
-
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 
